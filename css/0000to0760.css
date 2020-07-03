@@ -41,17 +41,18 @@ html {
   float: left;
 }
 
-.latestNew_latestNewDetails {}
+.latestNew_latestNewDetails {
+  display: inline-block;
+  float: right;
+  margin: 10px;
+}
 
 .latestNew_latestNewTitle {
-  float: left;
-  margin-left: auto;
+  float: right;
 }
 
 .latestNewDetails {
-  display: inline-block;
   width: calc(100% - 120px);
-  float: left;
   background-color: #999;
   height: max-content;
   font-size: 0.15rem;
@@ -64,7 +65,6 @@ html {
 }
 
 .latestNewTitle {
-  float: left;
   width: calc(100% - 120px);
   background-color: #999;
   height: min-content;
@@ -80,7 +80,9 @@ html {
 
 .latestNews__latestNew {}
 
-.latestNews__latestNewTitle {}
+.latestNews__latestNewTitle {
+  float: left;
+}
 
 .logo {
   background-color: pink;
