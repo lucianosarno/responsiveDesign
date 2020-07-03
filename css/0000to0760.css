@@ -52,7 +52,7 @@ html {
   margin: 10px 10px 10px 0;
 }
 
-.latestNew_latestNewTitle {
+.latestNew__latestNewTitle {
   float: right;
   margin: 10px 10px 0 10px;
 }
@@ -81,13 +81,22 @@ html {
   width: 100%;
   background-color: #ddd;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
 }
 
 .latestNews__latestNew {}
 
 .latestNews__latestNewTitle {
   float: left;
+}
+
+.latestNewsTitle {
+  width: 100%;
+  background-color: #bbb;
+  font-size: 0.25rem;
 }
 
 .logo {

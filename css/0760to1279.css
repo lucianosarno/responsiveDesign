@@ -21,8 +21,8 @@
     margin-left: auto;
   }
   .latestNew {
-    min-width: 25%;
-    max-width: 225px;
+    min-width: 250px;
+    max-width: 24%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -51,12 +51,11 @@
   .latestNewTitle {
     width: 90%;
   }
-  .latestNews {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
   .latestNews__latestNew {}
+  .latestNewsTitle {
+    width: 100%;
+    font-size: 0.25rem;
+  }
   .logo {
     width: 105px;
     height: 80px;
