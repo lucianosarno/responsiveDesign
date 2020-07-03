@@ -36,6 +36,7 @@
   .latestNew_latestNewDetails {
     clear: both;
     margin: 10px 0;
+    background-color: white;
   }
   .latestNew__latestNewTitle {
     clear: both;
@@ -48,10 +49,21 @@
     width: 90%;
     background-color: #999;
   }
+
+  .topArticle1st{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
+  }
+
+  .topImg2 {
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg");
+  }
+
   .latestNewTitle {
     width: 90%;
   }
-  .latestNews__latestNew {}
+  
+  /* .latestNews__latestNew {} */
+
   .latestNewsTitle {
     width: 100%;
     font-size: 0.25rem;

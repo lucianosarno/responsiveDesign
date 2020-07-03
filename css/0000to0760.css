@@ -12,11 +12,14 @@ html {
   overflow-x: visible;
 }
 
-.body__header {}
+.body__header {
+}
 
-.body__latestNews {}
+.body__latestNews {
+}
 
-.body__topArticles {}
+.body__topArticles {
+}
 
 .header {
   align-content: center;
@@ -26,13 +29,15 @@ html {
   width: 100%;
 }
 
-.header__logo {}
+.header__logo {
+}
 
 .header__search {
   margin-left: auto;
 }
 
-.topMenu__largeMenu1, .topMenu__largeMenu2 {
+.topMenu__largeMenu1,
+.topMenu__largeMenu2 {
   display: none;
 }
 
@@ -87,7 +92,8 @@ html {
   align-content: stretch;
 }
 
-.latestNews__latestNew {}
+.latestNews__latestNew {
+}
 
 .latestNews__latestNewTitle {
   float: left;
@@ -140,13 +146,48 @@ html {
 }
 
 .topArticle1st {
-  background-color: #bbb;
+  /* background-color: #bbb; */
   width: 100%;
   height: 30vh;
 }
 
+.topImg2 {
+  height: 210px;
+  width: 4.3rem;
+}
+
+.topArticlesub {
+  color: white;
+}
+
+.topTitle {
+  color: white;
+  font-size: 45px;
+  width: 8rem;
+  padding-top: 70px;
+}
+
+.topTitle2 {
+  color: white;
+  font-size: 27px;
+  width: 435px;
+  margin-top: -187px;
+}
+
+.topDetails2 {
+  color: white;
+  font-size: 15px;
+  margin-top: -19px;
+}
+
+.topDetails {
+  color: white;
+  font-size: 15px;
+}
+
 .topArticleNext {
-  background-color: #bbb;
+  /* background-color: #bbb; */
+  margin-top: 200px;
   height: 30vh;
   width: 100%;
   display: inline-block;
@@ -156,6 +197,7 @@ html {
   width: 100%;
 }
 
-.topMenu__mobileMenu, .topMenu__search {
+.topMenu__mobileMenu,
+.topMenu__search {
   float: right;
 }
