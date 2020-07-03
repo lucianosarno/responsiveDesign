@@ -43,7 +43,7 @@ html {
 
 .latestNew {
   width: 100%;
-  background-color: #bbb;
+  /* background-color: #bbb; */
 }
 
 .latestNew__latestNewImg {
@@ -64,7 +64,6 @@ html {
 
 .latestNewDetails {
   width: calc(100% - 120px);
-  background-color: #999;
   height: max-content;
   font-size: 0.15rem;
 }
@@ -72,19 +71,21 @@ html {
 .latestNewImg {
   width: 75px;
   height: 75px;
-  background-color: #999;
+}
+
+.latestNews img{
+  height: 2rem;
 }
 
 .latestNewTitle {
   width: calc(100% - 120px);
-  background-color: #999;
   height: min-content;
   font-size: 0.2rem;
 }
 
 .latestNews {
   width: 100%;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -101,7 +102,6 @@ html {
 
 .latestNewsTitle {
   width: 100%;
-  background-color: #bbb;
   font-size: 0.25rem;
 }
 
