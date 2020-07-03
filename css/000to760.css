@@ -5,6 +5,8 @@
 
 .body__header {}
 
+.body__latestNews {}
+
 .body__topArticles {}
 
 .header {
@@ -22,6 +24,29 @@
 .header__search {
   margin-left: auto;
 }
+
+.latestNew {}
+
+.latestNewDetails {}
+
+.latestNewImg {}
+
+.latestNewTitle {}
+
+.latestNew__latestNewImg {}
+
+.latestNew_latestNewDetails {}
+
+.latestNew_latestNewTitle {}
+
+.latestNews {
+  width: 100vw;
+  background-color: #ddd;
+}
+
+.latestNews__latestNew {}
+
+.latestNews__latestNewTitle {}
 
 .logo {
   background-color: #bbb;
