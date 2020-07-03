@@ -23,8 +23,8 @@
   margin-left: auto;
 }
 
-.largeMenu1, .largeMenu2 {
-  visibility: hidden;
+.topMenu__largeMenu1, .topMenu__largeMenu2 {
+  display: none;
 }
 
 .latestNew {}
@@ -74,6 +74,12 @@
   background-color: #ddd;
 }
 
+.topArticles::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .topArticle1st {
   background-color: #bbb;
   width: 100vw;
@@ -94,6 +100,10 @@
 
 .topArticles__topArticleNext {
   margin: 2px;
+}
+
+.topMenu {
+  width: 100%;
 }
 
 .topMenu__mobileMenu, .topMenu__search {

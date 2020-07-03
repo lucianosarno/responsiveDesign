@@ -3,18 +3,25 @@
     float: left;
   }
   .largeMenu1 {
+    visibility: visible;
     display: block;
     height: 32px;
     width: 100%;
     background-color: black;
   }
   .largeMenu2 {
+    visibility: visible;
     display: block;
     width: 100%;
     height: 45px;
     background-color: #999;
   }
+  .largeMenu2__search {
+    visibility: visible;
+    margin-left: auto;
+  }
   .logo {
+    width: 105px;
     height: 80px;
   }
   .mobileMenu {
@@ -34,7 +41,7 @@
     float: right;
     margin: 0.25vh 0;
   }
-  .topMenu {
-    width: 100%;
+  .topMenu__search {
+    visibility: hidden;
   }
 }
