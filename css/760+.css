@@ -1,0 +1,16 @@
+@media screen and (min-width: 760px) {
+  .topArticle1st {
+    width: 65vw;
+    height: 65vh;
+    max-height: 65vw;
+  }
+  .topArticleNext {
+    width: 32vw;
+    height: 32vh;
+    max-height: 32vw;
+  }
+  .topArticles__topArticleNext {
+    float: right;
+    margin: 0.25vh 0;
+  }
+}
