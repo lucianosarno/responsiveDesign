@@ -24,7 +24,7 @@
 }
 
 .largeMenu1, .largeMenu2 {
-  display: none;
+  visibility: hidden;
 }
 
 .latestNew {}
@@ -51,7 +51,7 @@
 .latestNews__latestNewTitle {}
 
 .logo {
-  background-color: #bbb;
+  background-color: pink;
   height: 43px;
   width: 106px;
 }
@@ -66,6 +66,7 @@
   background-color: #bbb;
   height: 48px;
   width: 49px;
+  visibility: visible;
 }
 
 .topArticles {
