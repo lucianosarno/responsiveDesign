@@ -9,7 +9,7 @@ html {
   padding: 0;
   width: 99vw;
   scroll-behavior: smooth;
-  scroll-margin-left: 50px;
+  overflow-x: visible;
 }
 
 .body__header {}
@@ -46,7 +46,7 @@ html {
   margin: 10px 0 0 10px;
 }
 
-.latestNew_latestNewDetails {
+.latestNew__latestNewDetails {
   display: inline-block;
   float: right;
   margin: 10px 10px 10px 0;

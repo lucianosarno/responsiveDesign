@@ -20,6 +20,43 @@
     visibility: visible;
     margin-left: auto;
   }
+  .latestNew {
+    min-width: 25%;
+    max-width: 225px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latestNew__latestNewImg {
+    clear: both;
+    margin: 10px 0;
+  }
+  .latestNew_latestNewDetails {
+    clear: both;
+    margin: 10px 0;
+  }
+  .latestNew__latestNewTitle {
+    clear: both;
+    margin: 0;
+  }
+  .latestNewDetails {
+    width: 90%;
+  }
+  .latestNewImg {
+    width: 90%;
+    background-color: #999;
+  }
+  .latestNewTitle {
+    width: 90%;
+  }
+  .latestNews {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .latestNews__latestNew {}
   .logo {
     width: 105px;
     height: 80px;
