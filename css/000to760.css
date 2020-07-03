@@ -19,10 +19,12 @@
 
 .header__logo {}
 
-.header__mobileMenu {}
-
 .header__search {
   margin-left: auto;
+}
+
+.largeMenu1, .largeMenu2 {
+  display: none;
 }
 
 .latestNew {}
@@ -92,3 +94,5 @@
 .topArticles__topArticleNext {
   margin: 2px;
 }
+
+.topMenu__mobileMenu {}

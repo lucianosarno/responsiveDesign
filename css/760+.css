@@ -1,4 +1,7 @@
 @media screen and (min-width: 760px) {
+  .mobileMenu {
+    display: none;
+  }
   .topArticle1st {
     width: 65vw;
     height: 65vh;
