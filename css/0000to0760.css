@@ -95,4 +95,6 @@
   margin: 2px;
 }
 
-.topMenu__mobileMenu {}
+.topMenu__mobileMenu, .topMenu__search {
+  float: right;
+}

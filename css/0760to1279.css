@@ -1,4 +1,7 @@
 @media screen and (min-width: 760px) {
+  .header__topMenu {
+    float: left;
+  }
   .largeMenu1 {
     display: block;
     height: 32px;
@@ -27,5 +30,8 @@
   .topArticles__topArticleNext {
     float: right;
     margin: 0.25vh 0;
+  }
+  .topMenu {
+    width: 100%;
   }
 }
