@@ -1,13 +1,12 @@
 html {
   font-size: 80px;
   box-sizing: border-box;
-  scroll-margin-left: 50px;
+  width: calc(100% - 2px);
 }
 
 .body {
   margin: 0;
   padding: 0;
-  width: 99vw;
   scroll-behavior: smooth;
   overflow-x: visible;
 }
@@ -108,13 +107,13 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  align-content: center;
 }
 
-.latestFundings__latestFundingsHighlight {
-  margin: auto;
-}
+.latestFundings__latestFundingsHighlight {}
 
 .latestFundingsHighlight {
+  box-sizing: border-box;
   width: 90%;
   max-width: 360px;
 }
@@ -127,12 +126,13 @@ html {
 }
 
 .latestFundingsHighlight__name {
+  box-sizing: border-box;
+  padding: 0 0 0 80px;
+  width: 100%;
   position: relative;
-  width: 90%;
   /* width: min-content; */
   height: 0.3rem;
   font-size: 0.2rem;
-  padding: 0 0 0 80px;
 }
 
 .latestFundingsLink {

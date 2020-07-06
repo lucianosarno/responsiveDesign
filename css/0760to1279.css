@@ -2,6 +2,9 @@
   .header__topMenu {
     float: left;
   }
+  .latestFundingsHighlight {
+    max-width: 360px;
+  }
   .largeMenu1 {
     visibility: visible;
     display: block;
@@ -21,7 +24,7 @@
     margin-left: auto;
   }
   .latestNew {
-    min-width: 260px;
+    min-width: 250px;
     max-width: 24%;
     flex-grow: 1;
     display: flex;
