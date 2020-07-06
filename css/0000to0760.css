@@ -36,17 +36,12 @@ html {
   display: none;
 }
 
-.largeMenu1 ul {
-  display: flex;
-  list-style-type: none;
-  margin: -73px;
-}
-
-.largeMenu1 a{
+.largeMenu1_link {
+  font-size: 0.2rem;
+  margin: 5px 0 5px 10px;
+  color: white;
+  float: left;
   text-decoration: none;
-  color: gray;
-  padding: 5px;
-  font-size: large;
 }
 
 .latestNew {
