@@ -118,15 +118,18 @@ html {
   max-width: 360px;
 }
 
-.latestFundingsHighlight__details {
+.latestFundingsHighlight__details, .latestFundingsHighlight__name {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  padding: 0 0 0 80px;
+  padding: 0.1rem 0 0.1rem 0;
+  padding-left: 80px;
   height: 0.9rem;
-  font-size: 0.2rem;
-  background-color: #ffebe8;
   margin: 0;
+  font-size: 0.3rem;
+  background-color: #ffebe8;
+  vertical-align: middle;
+  color: black;
   vertical-align: middle;
 }
 
@@ -138,14 +141,9 @@ html {
 }
 
 .latestFundingsHighlight__name {
-  box-sizing: border-box;
-  padding: 0 0 0 80px;
-  width: 100%;
   background-color: #f42;
   height: 0.6rem;
-  font-size: 0.2rem;
-  margin: 0;
-  vertical-align: middle;
+  color: white;
 }
 
 .latestFundingsLink {
