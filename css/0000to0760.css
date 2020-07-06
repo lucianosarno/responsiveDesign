@@ -118,6 +118,18 @@ html {
   max-width: 360px;
 }
 
+.latestFundingsHighlight__details {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 80px;
+  height: 0.9rem;
+  font-size: 0.2rem;
+  background-color: #ffebe8;
+  margin: 0;
+  vertical-align: middle;
+}
+
 .latestFundingsHighlight__img {
   width: 60px;
   height: 60px;
@@ -129,10 +141,11 @@ html {
   box-sizing: border-box;
   padding: 0 0 0 80px;
   width: 100%;
-  position: relative;
-  /* width: min-content; */
-  height: 0.3rem;
+  background-color: #f42;
+  height: 0.6rem;
   font-size: 0.2rem;
+  margin: 0;
+  vertical-align: middle;
 }
 
 .latestFundingsLink {
@@ -231,12 +244,6 @@ html {
   width: calc(100% - 20px);
   position: relative;
   left: 10px;
-}
-
-.topDetails2 {
-  color: white;
-  font-size: 15px;
-  margin-top: -19px;
 }
 
 .topArticleNext {
