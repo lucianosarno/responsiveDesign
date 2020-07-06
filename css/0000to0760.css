@@ -12,14 +12,11 @@ html {
   overflow-x: visible;
 }
 
-.body__header {
-}
+.body__header {}
 
-.body__latestNews {
-}
+.body__latestNews {}
 
-.body__topArticles {
-}
+.body__topArticles {}
 
 .header {
   align-content: center;
@@ -29,15 +26,13 @@ html {
   width: 100%;
 }
 
-.header__logo {
-}
+.header__logo {}
 
 .header__search {
   margin-left: auto;
 }
 
-.topMenu__largeMenu1,
-.topMenu__largeMenu2 {
+.topMenu__largeMenu1, .topMenu__largeMenu2 {
   display: none;
 }
 
@@ -73,7 +68,7 @@ html {
   height: 75px;
 }
 
-.latestNews img{
+.latestNews img {
   height: 2rem;
 }
 
@@ -93,16 +88,14 @@ html {
   align-content: stretch;
 }
 
-.latestNews__latestNew {
-}
+.latestNews__latestNew {}
 
-.latestNews__latestNewTitle {
+.latestNews__sectionsTitle {
   float: left;
 }
 
-.latestNewsTitle {
-  width: 100%;
-  font-size: 0.25rem;
+.latestFundingsLink {
+  font-size: 0.15rem;
 }
 
 .logo {
@@ -122,6 +115,11 @@ html {
   height: 48px;
   width: 49px;
   visibility: visible;
+}
+
+.sectionsTitle {
+  width: 100%;
+  font-size: 0.25rem;
 }
 
 .topArticles {
@@ -162,14 +160,14 @@ html {
 
 .topTitle {
   color: white;
-  font-size: 45px;
+  font-size: 0.45rem;
   width: 8rem;
   padding-top: 70px;
 }
 
 .topTitle2 {
   color: white;
-  font-size: 27px;
+  font-size: 0.45rem;
   width: 435px;
   margin-top: -187px;
 }
@@ -182,7 +180,7 @@ html {
 
 .topDetails {
   color: white;
-  font-size: 15px;
+  font-size: 0.15remf;
 }
 
 .topArticleNext {
@@ -197,7 +195,6 @@ html {
   width: 100%;
 }
 
-.topMenu__mobileMenu,
-.topMenu__search {
+.topMenu__mobileMenu, .topMenu__search {
   float: right;
 }
