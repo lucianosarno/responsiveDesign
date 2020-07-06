@@ -41,6 +41,19 @@ html {
   display: none;
 }
 
+.largeMenu1 ul {
+  display: flex;
+  list-style-type: none;
+  margin: -73px;
+}
+
+.largeMenu1 a{
+  text-decoration: none;
+  color: gray;
+  padding: 5px;
+  font-size: large;
+}
+
 .latestNew {
   width: 100%;
   /* background-color: #bbb; */
