@@ -46,7 +46,6 @@ html {
 
 .latestNew {
   width: 100%;
-  /* background-color: #bbb; */
 }
 
 .latestNew__latestNewImg {
@@ -128,7 +127,7 @@ html {
 
 .latestFundingsHighlight__name {
   position: relative;
-  width: 100%;
+  width: 90%;
   /* width: min-content; */
   height: 0.3rem;
   font-size: 0.2rem;
