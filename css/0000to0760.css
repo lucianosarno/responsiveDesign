@@ -94,20 +94,40 @@ html {
   float: left;
 }
 
-.latestFundings {}
+.latestFundings {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
-.latestFundingsHighlight__latestFundingsHighlightImg {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0 0 10px;
+.latestFundings__latestFundingsHighlight {
+  margin: auto;
 }
 
 .latestFundingsHighlight {
   width: 90%;
+  max-width: 360px;
+}
+
+.latestFundingsHighlight__img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 0 10px;
+  float: left;
+}
+
+.latestFundingsHighlight__name {
+  width: 100%;
+  height: 0.3rem;
+  font-size: 0.2rem;
+  padding: 0 0 0 80px;
 }
 
 .latestFundingsLink {
   font-size: 0.25rem;
+  align-self: flex-start;
 }
 
 .logo {
