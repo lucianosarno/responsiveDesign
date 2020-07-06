@@ -96,6 +96,16 @@ html {
 
 .latestFundings {}
 
+.latestFundingsHighlight__latestFundingsHighlightImg {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 0 10px;
+}
+
+.latestFundingsHighlight {
+  width: 90%;
+}
+
 .latestFundingsLink {
   font-size: 0.25rem;
 }
