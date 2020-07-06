@@ -94,9 +94,7 @@ html {
   float: left;
 }
 
-.latestFundings {
-  height: min-content;
-}
+.latestFundings {}
 
 .latestFundingsLink {
   font-size: 0.25rem;
