@@ -31,10 +31,6 @@ html {
   margin-left: auto;
 }
 
-.topMenu__largeMenu1, .topMenu__largeMenu2 {
-  display: none;
-}
-
 .largeMenu1_link {
   font-size: 0.2rem;
   margin: 5px 0 5px 10px;
@@ -116,11 +112,12 @@ html {
   box-sizing: border-box;
   width: 90%;
   max-width: 360px;
+  margin-top: 15px;
 }
 
-.latestFundingsHighlight__details, .latestFundingsHighlight__name {
+.latestFundingsHighlight__capital, .latestFundingsHighlight__details, .latestFundingsHighlight__name, .latestFundingsHighlight__numbers, .latestFundingsHighlight__tags {
   box-sizing: border-box;
-  display: block;
+  /* display: block; */
   width: 100%;
   padding: 0.1rem 0 0.1rem 0;
   padding-left: 80px;
@@ -128,9 +125,18 @@ html {
   margin: 0;
   font-size: 0.3rem;
   background-color: #ffebe8;
-  vertical-align: middle;
   color: black;
   vertical-align: middle;
+}
+
+.latestFundingsHighlight__details {
+  background-color: white;
+  padding-left: 10px;
+}
+
+.latestFundingsHighlight__capital {
+  display: inline;
+  background-color: white;
 }
 
 .latestFundingsHighlight__img {
@@ -144,6 +150,17 @@ html {
   background-color: #f42;
   height: 0.6rem;
   color: white;
+}
+
+.latestFundingsHighlight__numbers {
+  font-size: 0.35rem;
+}
+
+.latestFundingsHighlight__tags {
+  background-color: white;
+  color: black;
+  height: 0.6rem;
+  padding: 0.15rem 0 0.15rem 10px;
 }
 
 .latestFundingsLink {
@@ -253,6 +270,10 @@ html {
 
 .topMenu {
   width: 100%;
+}
+
+.topMenu__largeMenu1, .topMenu__largeMenu2 {
+  display: none;
 }
 
 .topMenu__mobileMenu, .topMenu__search {
