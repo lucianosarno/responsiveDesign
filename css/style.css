@@ -419,6 +419,10 @@ html {
   float: right;
 }
 
+.dot{
+  position: absolute;
+}
+
 @media screen and (min-width: 760px) {
   .header__topMenu {
     float: left;
