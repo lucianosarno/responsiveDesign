@@ -115,7 +115,7 @@ html {
 .latestFundingsHighlight {
   box-sizing: border-box;
   width: 90%;
-  max-width: 360px;
+  /* max-width: 32%; */
   margin-top: 15px;
 }
 
@@ -177,6 +177,13 @@ html {
   align-self: flex-start;
 }
 
+.latestFundingsUi {
+  list-style: none;
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
 .logo {
   background-color: pink;
   height: 43px;
@@ -224,6 +231,11 @@ html {
   width: calc(100% - 116px);
   float: left;
   margin-top: 10px;
+}
+
+.subtopics {
+  display: flex;
+  flex-direction: row;
 }
 
 .topArticle1st {
