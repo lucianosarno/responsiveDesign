@@ -75,7 +75,9 @@
   .topArticles__topArticleNext {
     float: right;
   }
-  .topics {}
+  .topics {
+    width: 33%;
+  }
   .topMenu__search {
     visibility: hidden;
   }

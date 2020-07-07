@@ -13,6 +13,7 @@ html {
 
 .body__topics {
   margin: 10px 0;
+  float: left;
 }
 
 .body__header {}
@@ -311,6 +312,10 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: auto;
+}
+
+.topics {
+  width: 90%;
 }
 
 .topMenu {
