@@ -26,6 +26,18 @@ html {
   background-color: black;
 }
 
+.footerMenu {
+  color: white;
+  font-size: 0.2rem;
+  text-decoration: none;
+}
+
+.footer__socialMedia {
+  width: fit-content;
+  display: block;
+  margin: 30px auto;
+}
+
 .header {
   align-content: center;
   background-color: #ddd;
@@ -223,7 +235,6 @@ html {
 
 .socialMedia {
   list-style: none;
-  margin: 30px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
