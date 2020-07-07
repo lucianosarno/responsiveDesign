@@ -187,7 +187,7 @@ html {
 
 .latestFundingsUi {
   list-style: none;
-  width: 100%;
+  width: max-content;
   padding: 0 0 0 10px;
   margin: 0;
 }
@@ -219,6 +219,29 @@ html {
 
 .sectiontitletext {
   position: relative;
+}
+
+.socialMedia {
+  list-style: none;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.socialMediaIcon {
+  box-sizing: border-box;
+  color: white;
+  font-size: 0.3rem;
+  line-height: 0.3rem;
+  padding: 0.1rem;
+  text-align: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid white;
+  margin: 10px 5px;
 }
 
 .subtopic {
