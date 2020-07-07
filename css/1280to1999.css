@@ -1,6 +1,13 @@
 @media screen and (min-width: 760px) {
+  .latestFundingsUi {
+    float: right;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: -0.6rem;
+  }
   .logo {
     display: none;
-    topMenu__search
   }
 }
