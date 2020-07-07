@@ -4,6 +4,13 @@ html {
   width: calc(100% - 2px);
 }
 
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+    font-size: calc(80*calc(100vw/360));
+  }
+}
+
 .body {
   margin: 0;
   padding: 0;
@@ -38,14 +45,15 @@ html {
 .footer__socialMedia {
   box-sizing: border-box;
   width: 100%;
-  padding: 0 30px 0 30px;
   display: block;
 }
 
 .footerMenu {
-  width: fit-content;
-  margin: auto;
+  width: 100%;
+  line-height: 0.2rem;
   height: min-content;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -75,6 +83,14 @@ html {
   font-size: 0.2rem;
   margin: 5px 0 5px 10px;
   color: white;
+  float: left;
+  text-decoration: none;
+}
+
+.largeMenu2__link {
+  font-size: 0.2rem;
+  margin: 15px 0 10px 10px;
+  color: #999;
   float: left;
   text-decoration: none;
 }
@@ -224,7 +240,6 @@ html {
 }
 
 .logo {
-  background-color: pink;
   height: 43px;
   width: 106px;
 }
@@ -236,7 +251,7 @@ html {
 }
 
 .search {
-  background-color: #bbb;
+  background-color: transparent;
   height: 48px;
   width: 49px;
   visibility: visible;
@@ -258,6 +273,9 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0 30px 0 30px;
+  margin: 0;
+  margin-top: 30px;
 }
 
 .socialMediaIcon {
