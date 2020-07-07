@@ -7,7 +7,7 @@ html {
 @media screen and (max-width: 320px) {
   html {
     font-size: 50px;
-    font-size: calc(80*calc(100vw/360));
+    font-size: calc(80 * calc(100vw / 360));
   }
 }
 
@@ -23,11 +23,14 @@ html {
   float: left;
 }
 
-.body__header {}
+/* .body__header {
+}
 
-.body__latestNews {}
+.body__latestNews {
+}
 
-.body__topArticles {}
+.body__topArticles {
+} */
 
 .footer {
   background-color: black;
@@ -73,7 +76,8 @@ html {
   width: 100%;
 }
 
-.header__logo {}
+/* .header__logo {
+} */
 
 .header__search {
   margin-left: auto;
@@ -106,7 +110,7 @@ html {
 
 .latestNew__latestNewDetails {
   display: inline-block;
-  float: right;
+  /* float: right; */
   margin: 10px 10px 10px 0;
 }
 
@@ -142,7 +146,8 @@ html {
   /* align-content: stretch; */
 }
 
-.latestNews__latestNew {}
+/* .latestNews__latestNew {
+} */
 
 .latestNews__sectionsTitle {
   float: left;
@@ -153,16 +158,17 @@ html {
   font-size: 0.25rem;
 }
 
-.latestFundings {
-  /* display: flex;
+/* .latestFundings {
+   display: flex;
   direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center; */
-}
+  align-content: center; 
+} */
 
-.latestFundings__latestFundingsHighlight {}
+/* .latestFundings__latestFundingsHighlight {
+} */
 
 .latestFundingsHighlight {
   box-sizing: border-box;
@@ -172,7 +178,12 @@ html {
   float: left;
 }
 
-.latestFundingsHighlight__capital, .latestFundingsHighlight__details, .latestFundingsHighlight__extras, .latestFundingsHighlight__name, .latestFundingsHighlight__numbers, .latestFundingsHighlight__tags {
+.latestFundingsHighlight__capital,
+.latestFundingsHighlight__details,
+.latestFundingsHighlight__extras,
+.latestFundingsHighlight__name,
+.latestFundingsHighlight__numbers,
+.latestFundingsHighlight__tags {
   box-sizing: border-box;
   display: block;
   width: 100%;
@@ -182,7 +193,7 @@ html {
   font-size: 0.3rem;
   background-color: #ffebe8;
   color: black;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .latestFundingsHighlight__capital {
@@ -190,7 +201,8 @@ html {
   background-color: white;
 }
 
-.latestFundingsHighlight__details, .latestFundingsHighlight__extras {
+.latestFundingsHighlight__details,
+.latestFundingsHighlight__extras {
   background-color: white;
   line-height: 0.3rem;
   height: min-content;
@@ -406,7 +418,8 @@ html {
   padding: 0 0 0 10px;
 }
 
-.topicsList::after, .topicsList::before {
+.topicsList::after,
+.topicsList::before {
   content: "";
   clear: both;
   display: block;
@@ -416,10 +429,12 @@ html {
   width: 100%;
 }
 
-.topMenu__largeMenu1, .topMenu__largeMenu2 {
+.topMenu__largeMenu1,
+.topMenu__largeMenu2 {
   display: none;
 }
 
-.topMenu__mobileMenu, .topMenu__search {
+.topMenu__mobileMenu,
+.topMenu__search {
   float: right;
 }
