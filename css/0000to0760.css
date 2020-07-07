@@ -11,7 +11,7 @@ html {
   overflow-x: visible;
 }
 
-.body__hardFork {
+.body__topics {
   margin: 10px 0;
 }
 
@@ -198,12 +198,32 @@ html {
 
 .sectionsTitle {
   width: 100%;
-  font-size: 0.25rem;
+  font-size: 0.35rem;
   display: flex;
+  padding: 0;
 }
 
 .sectiontitletext {
   position: relative;
+}
+
+.subtopic {
+  font-size: 0.2rem;
+  padding: 0 0 0 10px;
+}
+
+.subtopic__img {
+  width: 96px;
+  height: 96px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.subtopic__title {
+  width: calc(100% - 116px);
+  float: left;
+  margin-top: 10px;
 }
 
 .topArticle1st {
