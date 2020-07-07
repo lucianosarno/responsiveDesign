@@ -26,16 +26,35 @@ html {
   background-color: black;
 }
 
-.footerMenu {
+.footer__copyright {
+  box-sizing: border-box;
   color: white;
   font-size: 0.2rem;
-  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 0 30px 20px 30px;
 }
 
 .footer__socialMedia {
-  width: fit-content;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30px 0 30px;
   display: block;
-  margin: 30px auto;
+}
+
+.footerMenu {
+  width: fit-content;
+  margin: auto;
+  height: min-content;
+  text-align: center;
+}
+
+.footerMenu__link {
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.2rem;
+  height: min-content;
+  text-decoration: none;
 }
 
 .header {
@@ -238,7 +257,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .socialMediaIcon {
