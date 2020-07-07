@@ -76,7 +76,12 @@
     float: right;
   }
   .topics {
-    width: 33%;
+    width: calc(33% - 20px);
+    float: left;
+    padding: 0 10px;
+  }
+  .topics__topArticleNext {
+    width: 100%;
   }
   .topMenu__search {
     visibility: hidden;
