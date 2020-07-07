@@ -419,7 +419,7 @@ html {
   float: right;
 }
 
-.dot{
+.dot {
   position: absolute;
 }
 
@@ -494,6 +494,7 @@ html {
   .latestNewTitle {
     width: 90%;
   }
+
   .logo {
     width: 105px;
     height: 80px;
@@ -544,6 +545,7 @@ html {
     margin-top: -0.6rem;
     margin-right: 10px;
   }
+  
   .logo {
     display: none;
   }
