@@ -69,7 +69,6 @@
   .latestNewTitle {
     width: 90%;
   }
-  
   .logo {
     width: 105px;
     height: 80px;
@@ -108,5 +107,4 @@
   .topMenu__search {
     display: none;
   }
-  
 }

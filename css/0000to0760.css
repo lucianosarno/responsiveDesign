@@ -110,7 +110,6 @@ html {
 
 .latestNew__latestNewDetails {
   display: inline-block;
-  /* float: right; */
   margin: 10px 10px 10px 0;
 }
 
@@ -143,11 +142,7 @@ html {
   flex-wrap: wrap;
   justify-content: flex-start;
   justify-items: stretch;
-  /* align-content: stretch; */
 }
-
-/* .latestNews__latestNew {
-} */
 
 .latestNews__sectionsTitle {
   float: left;
@@ -158,22 +153,9 @@ html {
   font-size: 0.25rem;
 }
 
-/* .latestFundings {
-   display: flex;
-  direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center; 
-} */
-
-/* .latestFundings__latestFundingsHighlight {
-} */
-
 .latestFundingsHighlight {
   box-sizing: border-box;
   width: 90%;
-  /* max-width: 32%; */
   margin: 15px 0 0 10px;
   float: left;
 }
@@ -193,7 +175,6 @@ html {
   font-size: 0.3rem;
   background-color: #ffebe8;
   color: black;
-  /* vertical-align: middle; */
 }
 
 .latestFundingsHighlight__capital {
@@ -387,7 +368,6 @@ html {
 
 .topArticleNext__title {
   color: white;
-  /* font-size: 0.45rem; */
   width: calc(100% - 20px);
   position: relative;
   left: 10px;
@@ -438,3 +418,5 @@ html {
 .topMenu__search {
   float: right;
 }
+
+
