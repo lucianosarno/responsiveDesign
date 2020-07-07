@@ -69,15 +69,11 @@
   }
   .topArticleNext {
     width: 31vw;
-    height: 31vh;
-    max-height: 31vw;
+    height: 32vh;
+    max-height: 32vw;
   }
   .topArticles__topArticleNext {
     float: right;
-    /* margin: 0.25vh 0; */
-  }
-  .topImg2 {
-    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg");
   }
   .topMenu__search {
     visibility: hidden;
