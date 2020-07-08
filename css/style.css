@@ -23,6 +23,12 @@ html {
   float: left;
 }
 
+.topArticle__logo {
+  height: 2rem;
+  opacity: 0.5;
+  width: 3rem;
+}
+
 .footer {
   background-color: black;
 }
@@ -65,6 +71,11 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
 }
 
 .header__search {
@@ -374,7 +385,6 @@ html {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-ios-clipboard-copying-796x417.png");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position-x: auto;
 }
 
 .topics,
