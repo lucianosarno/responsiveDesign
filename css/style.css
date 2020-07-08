@@ -420,7 +420,6 @@ html {
   .header__topMenu {
     float: left;
   }
-  
   .latestFundingsHighlight {
     max-width: 32%;
   }
@@ -539,7 +538,7 @@ html {
     margin-top: -0.6rem;
     margin-right: 10px;
   }
-   .logo {
-     display: none;
+  .logo {
+    display: none;
   }
 }
