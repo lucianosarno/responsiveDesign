@@ -1,7 +1,7 @@
 # Design Tear Down
 > Luciano and Karthick 5th project in HTML&CSS3 module.
 
-![screenshot](css/screenshot (1).png)
+![screenshot](css/screenshot.png)
 
 In this task we were required to create a responsive clone of https://thenextweb.com/
 
