@@ -264,13 +264,20 @@ html {
   color: white;
   font-size: 0.3rem;
   line-height: 0.3rem;
-  padding: 0.1rem;
+  padding: 12px;
   text-align: center;
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 16px;
+  height: 16px;
   border-radius: 0.25rem;
   border: 1px solid white;
   margin: 10px 5px;
+}
+
+.socialMediaIcon_channel_facebook {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: -272px;
+  background-position-y: -272px;
 }
 
 .subtopic {
