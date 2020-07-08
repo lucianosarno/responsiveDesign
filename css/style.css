@@ -71,10 +71,10 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 999; */
 }
 
 .header__search {
@@ -107,8 +107,9 @@ html {
 }
 
 .latestNew__latestNewDetails {
-  display: inline-block;
+  display: block;
   margin: 10px 10px 10px 0;
+  float: right;
 }
 
 .latestNew__latestNewTitle {
@@ -123,8 +124,13 @@ html {
 }
 
 .latestNewImg {
-  width: 75px;
+  width: 90px;
   height: auto;
+}
+
+.topicsalign {
+  display: flex;
+  justify-content: center;
 }
 
 .latestNewTitle {
@@ -138,7 +144,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   justify-items: stretch;
 }
 
@@ -328,6 +334,7 @@ html {
   padding: 0;
   position: absolute;
   top: auto;
+  display: block;
   bottom: 10px;
   left: 10px;
   margin: 0;
@@ -375,7 +382,7 @@ html {
   width: 100%;
   display: inline-block;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-ios-clipboard-copying-796x417.png");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -422,7 +429,7 @@ html {
   }
 
   .latestFundingsHighlight {
-    max-width: 32%;
+    max-width: 31%;
   }
 
   .largeMenu1 {
@@ -502,6 +509,7 @@ html {
     width: 50%;
     margin: 10px 0 0 10px;
     opacity: 0.5;
+    visibility: visible;
   }
 
   .topArticleNext {
@@ -515,7 +523,7 @@ html {
   }
 
   .topics {
-    width: calc(33% - 20px);
+    width: calc(50% - 20px);
     float: left;
     padding: 0 10px;
   }
@@ -538,6 +546,10 @@ html {
     justify-content: space-between;
     margin-top: -0.6rem;
     margin-right: 10px;
+  }
+
+  .topics {
+    width: calc(33% - 20px);
   }
 
   .logo {
