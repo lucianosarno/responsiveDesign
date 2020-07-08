@@ -71,11 +71,10 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
-  background-color: #fff;
+  z-index: 999; */
 }
 
 .header__search {
@@ -108,8 +107,9 @@ html {
 }
 
 .latestNew__latestNewDetails {
-  display: inline-block;
+  display: block;
   margin: 10px 10px 10px 0;
+  float: right;
 }
 
 .latestNew__latestNewTitle {
@@ -124,8 +124,13 @@ html {
 }
 
 .latestNewImg {
-  width: 75px;
+  width: 90px;
   height: auto;
+}
+
+.topicsalign {
+  display: flex;
+  justify-content: center;
 }
 
 .latestNewTitle {
@@ -139,7 +144,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   justify-items: stretch;
 }
 
@@ -318,7 +323,6 @@ html {
 .topArticle1st {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: auto;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
   width: 100%;
   height: 30vh;
@@ -336,6 +340,7 @@ html {
   padding: 0;
   position: absolute;
   top: auto;
+  display: block;
   bottom: 10px;
   left: 10px;
   margin: 0;
@@ -383,7 +388,7 @@ html {
   width: 100%;
   display: inline-block;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-ios-clipboard-copying-796x417.png");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -428,9 +433,11 @@ html {
   .header__topMenu {
     float: left;
   }
+
   .latestFundingsHighlight {
-    max-width: 32%;
+    max-width: 31%;
   }
+
   .largeMenu1 {
     visibility: visible;
     display: block;
@@ -438,6 +445,7 @@ html {
     width: 100%;
     background-color: black;
   }
+
   .largeMenu2 {
     visibility: visible;
     display: block;
@@ -445,6 +453,7 @@ html {
     height: 45px;
     background-color: white;
   }
+
   .largeMenu2__search {
     visibility: visible;
     display: block;
@@ -452,6 +461,7 @@ html {
     position: relative;
     right: 0;
   }
+
   .latestNew {
     min-width: 245px;
     max-width: 24%;
@@ -462,58 +472,72 @@ html {
     justify-content: space-between;
     align-items: center;
   }
+
   .latestNew__latestNewImg {
     clear: both;
     margin: 10px 0;
   }
+
   .latestNew_latestNewDetails {
     clear: both;
     margin: 10px 0;
     background-color: white;
   }
+
   .latestNew__sectionsTitle {
     clear: both;
     margin: 0;
   }
+
   .latestNewDetails,
   .latestNewImg,
   .latestNewTitle {
     width: 90%;
   }
+
   .logo {
     width: 105px;
     height: 80px;
   }
+
   .mobileMenu {
     display: none;
   }
+
   .topArticle1st {
     width: 65vw;
     height: 65vh;
     max-height: 65vw;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
   }
+
   .topArticle1st__embedLogo {
     width: 50%;
     margin: 10px 0 0 10px;
     opacity: 0.5;
+    visibility: visible;
   }
+
   .topArticleNext {
     width: 31vw;
     height: 32vh;
     max-height: 32vw;
   }
+
   .topArticles__topArticleNext {
     float: right;
   }
+
   .topics {
-    width: calc(33% - 20px);
+    width: calc(50% - 20px);
     float: left;
     padding: 0 10px;
   }
+
   .topics__topArticleNext {
     width: 100%;
   }
+
   .topMenu__search {
     display: none;
   }
@@ -529,6 +553,11 @@ html {
     margin-top: -0.6rem;
     margin-right: 10px;
   }
+
+  .topics {
+    width: calc(33% - 20px);
+  }
+
   .logo {
     display: none;
   }
