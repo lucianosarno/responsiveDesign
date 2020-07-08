@@ -420,6 +420,7 @@ html {
   .header__topMenu {
     float: left;
   }
+  
   .latestFundingsHighlight {
     max-width: 32%;
   }
@@ -522,7 +523,7 @@ html {
   .topics__topArticleNext {
     width: 100%;
   }
-  
+
   .topMenu__search {
     display: none;
   }
@@ -538,7 +539,7 @@ html {
     margin-top: -0.6rem;
     margin-right: 10px;
   }
-  .logo {
-    display: none;
+   .logo {
+     display: none;
   }
 }
