@@ -537,7 +537,7 @@ html {
   }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1200px) {
   .latestFundingsUi {
     float: right;
     width: max-content;
@@ -556,3 +556,4 @@ html {
     display: none;
   }
 }
+
