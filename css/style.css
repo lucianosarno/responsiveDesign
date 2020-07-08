@@ -39,7 +39,8 @@ html {
   font-size: 0.2rem;
   width: 100%;
   text-align: center;
-  padding: 0 30px 20px 30px;
+  padding: 30px 30px 20px 30px;
+  border-top: 1px solid gray;
 }
 
 .footer__socialMedia {
@@ -58,7 +59,7 @@ html {
 }
 
 .footerMenu__link {
-  color: white;
+  color: gray;
   font-size: 0.2rem;
   line-height: 0.2rem;
   height: min-content;
@@ -71,10 +72,6 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999; */
 }
 
 .header__search {
@@ -286,7 +283,7 @@ html {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 0.25rem;
-  border: 1px solid white;
+  border: 1px solid gray;
   margin: 10px 5px;
 }
 
@@ -423,6 +420,10 @@ html {
   position: absolute;
 }
 
+.footer__copyright span {
+  color: gray;
+}
+
 @media screen and (min-width: 760px) {
   .header__topMenu {
     float: left;
@@ -556,4 +557,3 @@ html {
     display: none;
   }
 }
-
