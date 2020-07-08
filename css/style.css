@@ -510,7 +510,7 @@ html {
     width: 50%;
     margin: 10px 0 0 10px;
     opacity: 0.5;
-    visibility: visible;
+    visibility: hidden;
   }
 
   .topArticleNext {
@@ -551,6 +551,10 @@ html {
 
   .topics {
     width: calc(33% - 20px);
+  }
+
+  .topArticle1st__embedLogo{
+    visibility: visible;
   }
 
   .logo {
