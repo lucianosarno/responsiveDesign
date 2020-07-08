@@ -1,4 +1,4 @@
-# Design Tear Down
+# Responsive Design Implent Media Queries
 > Luciano and Karthick 5th project in HTML&CSS3 module.
 
 ![screenshot](css/screenshot.png)
