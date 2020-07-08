@@ -23,15 +23,6 @@ html {
   float: left;
 }
 
-/* .body__header {
-}
-
-.body__latestNews {
-}
-
-.body__topArticles {
-} */
-
 .footer {
   background-color: black;
 }
@@ -75,9 +66,6 @@ html {
   justify-content: space-between;
   width: 100%;
 }
-
-/* .header__logo {
-} */
 
 .header__search {
   margin-left: auto;
