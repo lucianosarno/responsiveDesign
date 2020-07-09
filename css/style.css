@@ -1,0 +1,566 @@
+html {
+  font-size: 80px;
+  box-sizing: border-box;
+  width: calc(100% - 2px);
+}
+
+.red {
+  color: red;
+}
+
+.grey {
+  color: #696969;
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+    font-size: calc(80 * calc(100vw / 360));
+  }
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: visible;
+}
+
+.body__topics {
+  margin: 10px 0;
+  float: left;
+}
+
+.topArticle__logo {
+  height: 2rem;
+  opacity: 0.5;
+  width: 3rem;
+}
+
+.footer {
+  background-color: #141414;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer__copyright {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-size: 0.2rem;
+  width: 100%;
+  text-align: center;
+  padding: 30px 30px 20px 30px;
+}
+
+.footer__socialMedia {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+}
+
+.footerMenu {
+  width: 100%;
+  line-height: 0.2rem;
+  height: min-content;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footerMenu__link {
+  color: #696969;
+  font-size: 0.2rem;
+  line-height: 0.2rem;
+  height: min-content;
+  text-decoration: none;
+}
+
+.header {
+  align-content: center;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__search {
+  margin-left: auto;
+}
+
+.largeMenu1_link {
+  font-size: 0.2rem;
+  margin: 5px 0 5px 10px;
+  color: white;
+  float: left;
+  text-decoration: none;
+}
+
+.largeMenu2__link {
+  font-size: 0.2rem;
+  margin: 15px 0 10px 10px;
+  color: #999;
+  float: left;
+  text-decoration: none;
+}
+
+.latestNew {
+  width: 100%;
+}
+
+.latestNew__latestNewImg {
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.latestNew__latestNewDetails {
+  display: block;
+  margin: 10px 10px 10px 0;
+  float: right;
+}
+
+.latestNew__latestNewTitle {
+  float: right;
+  margin: 10px 10px 0 10px;
+}
+
+.latestNewDetails {
+  width: calc(100% - 120px);
+  height: max-content;
+  font-size: 0.15rem;
+}
+
+.latestNewImg {
+  width: 90px;
+  height: auto;
+}
+
+.topicsalign {
+  display: flex;
+  justify-content: center;
+}
+
+.latestNewTitle {
+  width: calc(100% - 120px);
+  height: min-content;
+  font-size: 0.2rem;
+}
+
+.latestNews {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: stretch;
+}
+
+.latestNews__sectionsTitle {
+  float: left;
+}
+
+.latestNewsTitle {
+  width: 100%;
+  font-size: 0.25rem;
+}
+
+.latestFundingsHighlight {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 15px 0 0 10px;
+  float: left;
+}
+
+.latestFundingsHighlight__capital,
+.latestFundingsHighlight__details,
+.latestFundingsHighlight__extras,
+.latestFundingsHighlight__name,
+.latestFundingsHighlight__numbers,
+.latestFundingsHighlight__tags {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.1rem 0 0.1rem 0;
+  padding-left: 80px;
+  margin: 0;
+  font-size: 0.3rem;
+  background-color: #ffebe8;
+  color: black;
+}
+
+.latestFundingsHighlight__capital {
+  display: inline;
+  background-color: white;
+}
+
+.latestFundingsHighlight__details,
+.latestFundingsHighlight__extras {
+  background-color: white;
+  line-height: 0.3rem;
+  height: min-content;
+  padding: 0.15rem 0 0.15rem 10px;
+}
+
+.latestFundingsHighlight__extras {
+  border-top: 1px solid grey;
+}
+
+.latestFundingsHighlight__img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 0 10px;
+  float: left;
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F951951127305695233%2FG6s_mKsq.jpg&signature=e948aa062273d4c68630965eff3129ef");
+  background-size: contain;
+}
+
+.latestFundingsHighlight__name {
+  background-color: #f42;
+  color: white;
+}
+
+.latestFundingsHighlight__numbers {
+  font-size: 0.35rem;
+}
+
+.latestFundingsHighlight__tags {
+  background-color: white;
+  color: black;
+  height: min-content;
+  line-height: 0.3rem;
+  padding: 0.15rem 0 0.15rem 10px;
+}
+
+.latestFundingsLink {
+  font-size: 0.25rem;
+  align-self: flex-start;
+}
+
+.latestFundingsUi {
+  list-style: none;
+  width: max-content;
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+.logo {
+  height: 43px;
+  width: 106px;
+}
+
+.mobileMenu {
+  background-color: #bbb;
+  height: 48px;
+  width: 49px;
+}
+
+.search {
+  background-color: transparent;
+  height: 48px;
+  width: 49px;
+  visibility: visible;
+}
+
+.sectionsTitle {
+  width: 100%;
+  font-size: 0.35rem;
+  padding: 0;
+}
+
+.sectiontitletext {
+  position: relative;
+}
+
+.socialMedia {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 30px 0 30px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.socialMediaIcon {
+  background-color: #333;
+  box-sizing: border-box;
+  color: white;
+  font-size: 0.3rem;
+  line-height: 0.3rem;
+  cursor: pointer;
+  padding: 0.1rem;
+  text-align: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  border: 0;
+  margin: 10px 5px;
+}
+
+.subtopic {
+  font-size: 0.2rem;
+  padding: 0 0 0 10px;
+}
+
+.subtopic__img {
+  width: 96px;
+  height: 96px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.subtopic__title {
+  width: calc(100% - 116px);
+  float: left;
+  margin-top: 10px;
+}
+
+.subtopics {
+  display: flex;
+  flex-direction: row;
+}
+
+.topArticle1st {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
+  width: 100%;
+  height: 30vh;
+}
+
+.topArticle1st__embedLogo {
+  visibility: hidden;
+}
+
+.topArticle__details {
+  width: calc(100% - 20px);
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.2rem;
+  padding: 0;
+  position: absolute;
+  top: auto;
+  display: block;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+}
+
+.topArticle__title {
+  color: white;
+  font-size: 0.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: calc(100% - 20px);
+  position: absolute;
+  left: 10px;
+  top: auto;
+  bottom: calc(0.2rem + 15px);
+  margin: 0;
+}
+
+.topArticles {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.topArticles::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.topArticles__topArticle1,
+.topArticles__topArticleNext {
+  margin: 2px;
+  float: left;
+  position: relative;
+}
+
+.topArticleNext__title {
+  color: white;
+  width: calc(100% - 20px);
+  position: relative;
+  left: 10px;
+}
+
+.topArticleNext {
+  height: 30vh;
+  width: 100%;
+  display: inline-block;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-ios-clipboard-copying-796x417.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topics,
+.topMenu {
+  width: 100%;
+}
+
+.topics__topArticleNext {
+  position: relative;
+}
+
+.topicsList {
+  list-style: none;
+  font-size: 0.25rem;
+  width: calc(100% - 10px);
+  padding: 0 0 0 10px;
+}
+
+.topicsList::after,
+.topicsList::before {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.topMenu__largeMenu1,
+.topMenu__largeMenu2 {
+  display: none;
+}
+
+.topMenu__mobileMenu,
+.topMenu__search {
+  float: right;
+}
+
+.dot {
+  position: absolute;
+}
+
+@media screen and (min-width: 760px) {
+  .header__topMenu {
+    float: left;
+  }
+
+  .latestFundingsHighlight {
+    max-width: 31%;
+  }
+
+  .largeMenu1 {
+    visibility: visible;
+    display: block;
+    height: 32px;
+    width: 100%;
+    background-color: black;
+  }
+
+  .largeMenu2 {
+    visibility: visible;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+  }
+
+  .largeMenu2__search {
+    visibility: visible;
+    display: block;
+    float: right;
+    position: relative;
+    right: 0;
+  }
+
+  .latestNew {
+    min-width: 245px;
+    max-width: 24%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latestNew__latestNewImg {
+    clear: both;
+    margin: 10px 0;
+  }
+
+  .latestNew_latestNewDetails {
+    clear: both;
+    margin: 10px 0;
+    background-color: white;
+  }
+
+  .latestNew__sectionsTitle {
+    clear: both;
+    margin: 0;
+  }
+
+  .latestNewDetails,
+  .latestNewImg,
+  .latestNewTitle {
+    width: 90%;
+  }
+
+  .logo {
+    width: 105px;
+    height: 80px;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+
+  .topArticle1st {
+    width: 65vw;
+    height: 65vh;
+    max-height: 65vw;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
+  }
+
+  .topArticleNext {
+    width: 31vw;
+    height: 32vh;
+    max-height: 32vw;
+  }
+
+  .topArticles__topArticleNext {
+    float: right;
+  }
+
+  .topics {
+    width: calc(50% - 20px);
+    float: left;
+    padding: 0 10px;
+  }
+
+  .topics__topArticleNext {
+    width: 100%;
+  }
+
+  .topMenu__search {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .latestFundingsUi {
+    float: right;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: -0.6rem;
+    margin-right: 10px;
+  }
+
+  .topics {
+    width: calc(33% - 20px);
+  }
+
+  .topArticle1st__embedLogo {
+    width: 50%;
+    margin: 10px 0 0 10px;
+    opacity: 0.5;
+    visibility: visible;
+  }
+
+  .logo {
+    display: none;
+  }
+}

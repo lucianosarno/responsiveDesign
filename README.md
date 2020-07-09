@@ -1,7 +1,7 @@
-# Design Tear Down
+# Responsive Design Implent Media Queries
 > Luciano and Karthick 5th project in HTML&CSS3 module.
 
-![screenshot]()
+![screenshot](css/screenshot.png)
 
 In this task we were required to create a responsive clone of https://thenextweb.com/
 
@@ -12,7 +12,7 @@ In this task we were required to create a responsive clone of https://thenextweb
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/lucianosarno/responsiveDesign/development/index.html)
 
 ## Authors
 
@@ -27,6 +27,22 @@ In this task we were required to create a responsive clone of https://thenextweb
 - Linkedin: [linkedin](https://www.linkedin.com/in/karthick-harimoorthy/)
 
 ## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Start by:
+
+- Forking the project
+
+- Cloning the project to your local machine
+
+- cd into the project directory
+
+- Run git checkout -b your-branch-name
+
+- Make your contributions
+
+- Push your branch up to your forked repository
+
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 Contributions, issues and feature requests are welcome!
 
