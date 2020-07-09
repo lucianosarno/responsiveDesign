@@ -276,20 +276,14 @@ html {
   color: white;
   font-size: 0.3rem;
   line-height: 0.3rem;
-  padding: 12px;
+  cursor: pointer;
+  padding: 0.1rem;
   text-align: center;
-  width: 16px;
-  height: 16px;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 0.25rem;
   border: 1px solid gray;
   margin: 10px 5px;
-}
-
-.socialMediaIcon_channel_facebook {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
-  background-origin: padding-box;
-  background-position-x: -272px;
-  background-position-y: -272px;
 }
 
 .subtopic {
@@ -433,11 +427,9 @@ html {
   .header__topMenu {
     float: left;
   }
-
   .latestFundingsHighlight {
     max-width: 31%;
   }
-
   .largeMenu1 {
     visibility: visible;
     display: block;
@@ -445,7 +437,6 @@ html {
     width: 100%;
     background-color: black;
   }
-
   .largeMenu2 {
     visibility: visible;
     display: block;
@@ -453,7 +444,6 @@ html {
     height: 45px;
     background-color: white;
   }
-
   .largeMenu2__search {
     visibility: visible;
     display: block;
@@ -461,7 +451,6 @@ html {
     position: relative;
     right: 0;
   }
-
   .latestNew {
     min-width: 245px;
     max-width: 24%;
@@ -472,78 +461,59 @@ html {
     justify-content: space-between;
     align-items: center;
   }
-
   .latestNew__latestNewImg {
     clear: both;
     margin: 10px 0;
   }
-
   .latestNew_latestNewDetails {
     clear: both;
     margin: 10px 0;
     background-color: white;
   }
-
   .latestNew__sectionsTitle {
     clear: both;
     margin: 0;
   }
-
   .latestNewDetails,
   .latestNewImg,
   .latestNewTitle {
     width: 90%;
   }
-
   .logo {
     width: 105px;
     height: 80px;
   }
-
   .mobileMenu {
     display: none;
   }
-
   .topArticle1st {
     width: 65vw;
     height: 65vh;
     max-height: 65vw;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
   }
-
-  .topArticle1st__embedLogo {
-    width: 50%;
-    margin: 10px 0 0 10px;
-    opacity: 0.5;
-    visibility: hidden;
-  }
-
   .topArticleNext {
     width: 31vw;
     height: 32vh;
     max-height: 32vw;
   }
-
   .topArticles__topArticleNext {
     float: right;
   }
-
   .topics {
     width: calc(50% - 20px);
     float: left;
     padding: 0 10px;
   }
-
   .topics__topArticleNext {
     width: 100%;
   }
-
   .topMenu__search {
     display: none;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .latestFundingsUi {
     float: right;
     width: max-content;
@@ -553,15 +523,15 @@ html {
     margin-top: -0.6rem;
     margin-right: 10px;
   }
-
   .topics {
     width: calc(33% - 20px);
   }
-
   .topArticle1st__embedLogo {
+    width: 50%;
+    margin: 10px 0 0 10px;
+    opacity: 0.5;
     visibility: visible;
   }
-
   .logo {
     display: none;
   }
