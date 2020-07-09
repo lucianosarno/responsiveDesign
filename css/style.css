@@ -40,7 +40,6 @@ html {
   width: 100%;
   text-align: center;
   padding: 30px 30px 20px 30px;
-  border-top: 1px solid gray;
 }
 
 .footer__socialMedia {
@@ -516,7 +515,7 @@ html {
     width: 50%;
     margin: 10px 0 0 10px;
     opacity: 0.5;
-    visibility: visible;
+    visibility: hidden;
   }
 
   .topArticleNext {
@@ -557,6 +556,10 @@ html {
 
   .topics {
     width: calc(33% - 20px);
+  }
+
+  .topArticle1st__embedLogo {
+    visibility: visible;
   }
 
   .logo {
