@@ -156,7 +156,7 @@ html {
 .latestFundingsHighlight {
   box-sizing: border-box;
   width: 90%;
-  margin: 15px 0 0 10px;
+  margin: 28px 6px 33px 16px;
   float: left;
 }
 
@@ -235,6 +235,7 @@ html {
 .logo {
   height: 43px;
   width: 106px;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .mobileMenu {
@@ -315,7 +316,7 @@ html {
   background-repeat: no-repeat;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-94-796x417.png");
   width: 100%;
-  height: 30vh;
+  height: 40vh;
 }
 
 .topArticle1st__embedLogo {
@@ -336,9 +337,13 @@ html {
   margin: 0;
 }
 
+.latestFundings {
+  color: red;
+}
+
 .topArticle__title {
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.2rem;
   font-family: Arial, Helvetica, sans-serif;
   width: calc(100% - 20px);
   position: absolute;
@@ -374,7 +379,7 @@ html {
 }
 
 .topArticleNext {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   display: inline-block;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-ios-clipboard-copying-796x417.png");
@@ -482,6 +487,7 @@ html {
   .logo {
     width: 105px;
     height: 80px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
   }
   .mobileMenu {
     display: none;
